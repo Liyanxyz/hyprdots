@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background-color: transparent; /* Everforest dark background */
+  background-color: transparent;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -29,25 +29,25 @@ window#waybar.hidden {
   /* Use box-shadow instead of border so the text isn't offset */
   padding: 6px 18px;
   margin: 6px 3px;
-  border-radius: 4px;
-  background-color: transparent; /* Everforest dark surface */
+  border-radius: 12px;
+  background-color: rgba(61, 72, 77, 0.8); /* Semi-transparent Everforest dark surface */
   color: #d3c6aa; /* Everforest foreground */
 }
 
 #workspaces button.active {
   color: #2d353b;
-  background-color: #a7c080; /* Everforest green */
+  background-color: rgba(167, 192, 128, 0.9); /* Semi-transparent Everforest green */
 }
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #2d353b;
-  background-color: #a7c080; /* Everforest green */
+  background-color: rgba(167, 192, 128, 0.9); /* Semi-transparent Everforest green */
 }
 
 #workspaces button.urgent {
-  background-color: #e67e80; /* Everforest red */
+  background-color: rgba(230, 126, 128, 0.9); /* Semi-transparent Everforest red */
 }
 
 #memory,
@@ -58,10 +58,9 @@ window#waybar.hidden {
 #network,
 #clock,
 #tray {
-  border-radius: 4px;
+  border-radius: 12px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #3d484d; /* Everforest dark surface */
   color: #2d353b;
 }
 
@@ -70,54 +69,54 @@ window#waybar.hidden {
 }
 
 #memory {
-  background-color: #dbbc7f; /* Everforest yellow */
+  background-color: rgba(219, 188, 127, 0.8); /* Semi-transparent Everforest yellow */
 }
 
 #battery {
-  background-color: #e67e80; /* Everforest red */
+  background-color: rgba(230, 126, 128, 0.8); /* Semi-transparent Everforest red */
 }
 
 #battery.warning,
 #battery.critical,
 #battery.urgent {
-  background-color: #e67e80; /* Everforest red */
+  background-color: rgba(230, 126, 128, 0.8); /* Semi-transparent Everforest red */
   color: #2d353b;
 }
 
 #battery.charging {
-  background-color: #a7c080; /* Everforest green */
+  background-color: rgba(167, 192, 128, 0.8); /* Semi-transparent Everforest green */
   color: #2d353b;
 }
 
 #backlight {
-  background-color: #dbbc7f; /* Everforest yellow */
+  background-color: rgba(219, 188, 127, 0.8); /* Semi-transparent Everforest yellow */
 }
 
 #pulseaudio {
-  background-color: #83c092; /* Everforest aqua */
+  background-color: rgba(131, 192, 146, 0.8); /* Semi-transparent Everforest aqua */
 }
 
 #network {
-  background-color: #7fbbb3; /* Everforest blue */
+  background-color: rgba(127, 187, 179, 0.8); /* Semi-transparent Everforest blue */
   padding-right: 17px;
 }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
-  background-color: #d699b6; /* Everforest purple */
+  background-color: rgba(214, 153, 182, 0.8); /* Semi-transparent Everforest purple */
 }
 
 #custom-power {
-  background-color: #e69875; /* Everforest orange */
+  background-color: rgba(230, 152, 117, 0.8); /* Semi-transparent Everforest orange */
 }
 
 tooltip {
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 15px;
-  background-color: #232a2e; /* Everforest darker background */
+  background-color: rgba(35, 42, 46, 0.9); /* Semi-transparent Everforest darker background */
 }
 
 tooltip label {
   padding: 5px;
-  background-color: #232a2e; /* Everforest darker background */
+  background-color: rgba(35, 42, 46, 0.9); /* Semi-transparent Everforest darker background */
 }
